@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div style="margin-right: 450px; margin-left: 450px; top: 50%">
+        <div
+          class="shadow1"
+          id="login-elements"
+          style="padding: 40px; margin-top: 40px; background-color: #ffffff"
+        >
+          <form method="POST" action="{{ route('verify-login') }}">
+            <span style="font-weight: 650; font-size: 28px">Login</span>&nbsp
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+            <br /><br /><br />
+
+            <span>Email</span>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input
+              type="text"
+              class="pd10"
+              name="email"
+              required
+              placeholder="abc@example.com"
+            /><br /><br />
+
+            <span>Password</span>&nbsp &nbsp
+            <input
+              type="password"
+              class="pd10"
+              name="password"
+              placeholder="********"
+              required
+            /><br />
+
+            <br /><br />
+            <div align="center">
+              <input class="btn btn1" type="submit" value="Login" />
+              <br /><br />
+              <span
+                >Don't have an account yet?
+                <a href="register_form.html" style="color: #eb5b77"
+                  >Register Here</a
+                ></span
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

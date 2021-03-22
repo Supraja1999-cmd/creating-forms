@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="" style="margin-right: 450px; margin-left: 450px">
+        <div
+          class="shadow1"
+          id="login-elements"
+          style="padding: 40px; margin-top: 40px; background-color: #ffffff"
+        >
+          <form method="POST" action="">
+            <div align="center">
+              <span style="font-weight: 650; font-size: 28px"
+                >Create your Account</span
+              >
+              <br /><br />
+              <span
+                >Are you a Doctor?
+                <a href="doctor_register.html" style="color: #eb5b77"
+                  >Register Here</a
+                ></span
+              ><br /><br /><span
+                ><a href="dashboard.html">Visit Dashboard</a></span
+              >
+            </div>
+
+            <br />
+
+            <div id="patient-register-col3">
+              <span>Name</span><br />
+              <input
+                class="pd10 mg-top-10"
+                type="text"
+                name="fname"
+                placeholder="First name"
+                required
+              />
+            </div>
+
+            <div id="patient-register-col3">
+              <span class="mg-top-10">Date of Birth</span><br />
+              <input
+                class="pd10 mg-top-10"
+                type="date"
+                name="lname"
+                placeholder="Last name"
+                required
+              />
+            </div>
+
+            <div id="patient-register-col3">
+              <span>Email</span><br />
+              <input
+                class="pd10 mg-top-10"
+                type="text"
+                placeholder="abc@example.com"
+                name="email"
+                required
+              />
+            </div>
+
+            <div id="patient-register-col3">
+              <span>Telephone</span><br />
+              <input
+                class="pd10 mg-top-10"
+                type="number"
+                name="telephone"
+                placeholder="+ 91 8123456890"
+                required
+              />
+            </div>
+
+            <p>Please select your gender:</p>
+
+            <div id="patient-register-col3">
+              <input
+                type="radio"
+                class="male"
+                id="male"
+                name="gender"
+                value="male"
+                style="width: auto"
+              />
+              <label for="female">Female</label><br />
+              <input
+                type="radio"
+                id="female"
+                class="female"
+                name="gender"
+                value="female"
+                style="width: auto"
+              />
+
+              <label for="female">Male</label>
+            </div>
+
+            <div id="patient-register-col3">
+              <span>Password</span><br />
+              <input
+                class="pd10 mg-top-10"
+                placeholder="password"
+                type="password"
+                name="password"
+                required
+              />
+            </div>
+
+            <div id="patient-register-col3">
+              <input
+                style="width: auto"
+                type="checkbox"
+                name="checkbox"
+                required
+              />
+              <a href=""><span>I Agree to the terms and conditions</span></a>
+            </div>
+
+            <div align="center">
+              <input type="submit" class="btn btn1" value="Submit" />
+            </div>
+            <div align="center">
+              <br />
+              <input type="reset" class="btn btn1" value="Reset" />
+            </div>
+            <br />
+            <span
+              >Already have an account yet?
+              <a href="login_form.html" style="color: #eb5b77"
+                >Login Here</a
+              ></span
+            >
+          </form>
+        </div>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

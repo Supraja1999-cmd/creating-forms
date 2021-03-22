@@ -1,0 +1,124 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input,
+select {
+  padding: 5px;
+  border: 0.5px solid #e6e7ee;
+  border-radius: 4px;
+  background-color: #f6f7f9;
+  width: 100%;
+}
+
+.spacer1 {
+  padding: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+.mg5 {
+  margin: 5px;
+}
+
+.mg10 {
+  margin: 10px;
+}
+
+.mg15 {
+  margin: 15px;
+}
+.mg20 {
+  margin: 20px;
+}
+.mg25 {
+  margin: 25px;
+}
+
+.mg30 {
+  margin: 30px;
+}
+
+.mg40 {
+  margin: 40px;
+}
+
+.mg55 {
+  margin: 55px;
+}
+
+.mg-top-10 {
+  margin: 10px 0px 10px 0px;
+}
+
+.pd5 {
+  padding: 5px;
+}
+
+.pd10 {
+  padding: 10px;
+}
+
+.pd20 {
+  padding: 20px;
+}
+
+.pd30 {
+  padding: 30px;
+}
+.pd40 {
+  padding: 40px;
+}
+
+.shadow1 {
+  border: 2px solid #a5a5a5;
+  border-radius: 10px;
+}
+
+.btn1,
+.btn1:hover {
+  background-color: #eb5b77;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+}
+
+#patient-register-col3 {
+  height: 13vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 15px;
+}
+th {
+  background-color: #dddddd;
+}
